@@ -1928,11 +1928,11 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-facebook {
-					background: #3c5a98;
+					background: #3769cb;
 				}
 
 					ul.social li a.fa-facebook:hover {
-						background: #4c6aa8;
+						background: #4374d6;
 					}
 
 				ul.social li a.fa-twitter {
@@ -1943,36 +1943,12 @@ input, select, textarea {
 						background: #3dbaf4;
 					}
 
-				ul.social li a.fa-dribbble {
+				ul.social li a.fa-instagram {
 					background: #c4376b;
 				}
 
-					ul.social li a.fa-dribbble:hover {
+					ul.social li a.fa-instagram:hover {
 						background: #d4477b;
-					}
-
-				ul.social li a.fa-linkedin {
-					background: #006599;
-				}
-
-					ul.social li a.fa-linkedin:hover {
-						background: #1075a9;
-					}
-
-				ul.social li a.fa-tumblr {
-					background: #2b4661;
-				}
-
-					ul.social li a.fa-tumblr:hover {
-						background: #3b5671;
-					}
-
-				ul.social li a.fa-google-plus {
-					background: #da2713;
-				}
-
-					ul.social li a.fa-google-plus:hover {
-						background: #ea3723;
 					}
 
 /* Icons */
@@ -2173,14 +2149,14 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: url("../../images/pic01.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		padding: 8em 0;
-		margin: 4em 0 0 0;
+		/* padding: 8em 0; */
+		margin: 4em 0 4em 0;
 	}
 
 		#banner header {
@@ -2204,64 +2180,6 @@ input, select, textarea {
 				margin: 0;
 				font-size: 1.5em;
 			}
-
-
-/* Intro */
-
-	#intro {
-		text-align: center;
-		overflow: hidden;
-	}
-
-		#intro section {
-			margin: 3em 0;
-			padding: 2.5em 0;
-		}
-
-		#intro h2 {
-			font-size: 1.75em;
-		}
-
-		#intro p {
-			margin: 0;
-		}
-
-		#intro .middle {
-			position: relative;
-			z-index: 1;
-		}
-
-			#intro .middle:before {
-				content: '';
-				width: 32px;
-				height: 100%;
-				position: absolute;
-				left: -24px;
-				top: 0;
-				display: block;
-				z-index: -1;
-				box-shadow: 32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, 32px 32px 0 0 #fff, 32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
-			}
-
-			#intro .middle:after {
-				content: '';
-				width: 32px;
-				height: 100%;
-				position: absolute;
-				right: -24px;
-				top: 0;
-				display: block;
-				z-index: -1;
-				box-shadow: -32px 0 0 0 #fff, 0 -32px 0 0 #fff, 0 32px 0 0 #fff, -32px 32px 0 0 #fff, -32px -32px 0 0 #fff, 0 0 32px 0 rgba(0, 0, 0, 0.15);
-			}
-
-		#intro .button {
-			min-width: 12em;
-		}
-
-		#intro footer {
-			margin: 0;
-		}
 
 /* Main */
 
@@ -2858,18 +2776,7 @@ input, select, textarea {
 
 		/* Intro */
 
-			#intro {
-				padding: 2em 0 0 0;
-			}
-
-				#intro section {
-					padding: 40px 0 0 0;
-					margin: 20px 0 0 0;
-				}
-
-				#intro h2 {
-					font-size: 1.25em;
-				}
+			
 
 		/* Banner */
 
